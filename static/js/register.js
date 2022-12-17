@@ -16,7 +16,7 @@ function register() {
         return false;
     }
     if (phoneNumber == null || phoneNumber == "") {
-        alert("Phone number cann't be Empty");
+        alert("Phone number can't be Empty");
         return false;
     }
     if (password == null || password == "") {
@@ -32,7 +32,7 @@ function register() {
         return false;
     }
     if (password != confirmPassword) {
-        alert("passwords doesn't match");
+        alert("passwords don't match");
         return false;
     }
     if (email != '' && userName != '' && phoneNumber != '' && password != '' && confirmPassword != '' && password == confirmPassword)
